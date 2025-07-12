@@ -38,7 +38,7 @@ Randomly selects a pivot and recursively selects within the correct partition.
 Works well on average but can degrade to O(n²) in rare worst-case scenarios.
 Suitable for general use unless the input is adversarial.
 
-# Time Complexity Analysis
+## Time Complexity Analysis
 Structure/Algorithm	Operation	Time Complexity	Why?
 Array	Insert / Delete (middle)	O(n)	Shifting needed
 Access (by index)	O(1)	Direct access
@@ -54,13 +54,13 @@ Worst Case	O(n²)	Poor random pivoting
 Deterministic Select	Worst Case	O(n)	Uses median-of-medians to guarantee balance
 
 
-# Summary of Findings
+## Summary of Findings
 Arrays are best for fast lookups but inefficient for frequent modifications.
 Stacks and queues are ideal for LIFO/FIFO behaviors and sequential workflows.
 Linked lists provide dynamic memory management for insert-heavy tasks.
 Trees model hierarchical structures and support recursive operations well.
 Deterministic selection ensures stable performance, while randomized quickselect is faster on average.
 
-# Conclusion
+## Conclusion
 This assignment offered valuable hands-on experience in building fundamental data structures and understanding their algorithmic trade-offs. By implementing and analyzing each structure manually, we gained deeper insights into time complexity, space usage, and real-world suitability — skills essential for writing efficient and scalable code.
 
